@@ -1,0 +1,26 @@
+{
+  "name": "random-chat-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for random anonymous chat - meet and talk with strangers",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "random",
+    "chat",
+    "anonymous",
+    "stranger",
+    "omegle",
+    "supabase"
+  ],
+  "dependencies": {
+    "@supabase/supabase-js": "^2.86.2",
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
